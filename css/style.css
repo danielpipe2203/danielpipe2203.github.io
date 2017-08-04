@@ -1,0 +1,308 @@
+/*Responsive values*/
+body {
+  min-height: 100vh; }
+
+@font-face {
+  font-family: AdamCG;
+  src: url(../fonts/ADAM_CG_PRO.otf); }
+@font-face {
+  font-family: BrandonLight;
+  src: url(../fonts/Brandon_light.otf); }
+@font-face {
+  font-family: DolceVitaBold;
+  src: url(../fonts/Dolce_Vita_Heavy_Bold.ttf); }
+@font-face {
+  font-family: GeosansLight;
+  src: url(../fonts/GeosansLight.ttf); }
+/*----Seccion 1: portada-----*/
+.seccion_1 {
+  color: #fff;
+  position: relative;
+  line-height: normal; }
+  .seccion_1 .grad {
+    background: rgba(54, 54, 54, 0.5);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(54, 54, 54, 0.7), rgba(54, 54, 54, 0.3));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(54, 54, 54, 0.7), rgba(54, 54, 54, 0.3));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(54, 54, 54, 0.7), rgba(54, 54, 54, 0.3));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(54, 54, 54, 0.7), rgba(54, 54, 54, 0.3));
+    /* Standard syntax */ }
+  .seccion_1 .parallax-container {
+    height: 100vh; }
+  .seccion_1 .titulos {
+    position: absolute;
+    bottom: 90px;
+    left: 40px; }
+  .seccion_1 .ver_mas {
+    position: absolute;
+    bottom: 35px;
+    left: 50%; }
+  .seccion_1 .ver_mas > h1 {
+    font-family: "AdamCG";
+    font-size: 15px; }
+  .seccion_1 .ver_mas > img {
+    position: absolute;
+    left: 20%; }
+  .seccion_1 h1 {
+    font-family: "DolceVitaBold";
+    font-size: 100px;
+    line-height: 92px;
+    margin-bottom: -28px; }
+  .seccion_1 h2 {
+    font-family: "GeosansLight";
+    font-size: 75px; }
+  .seccion_1 h3 {
+    font-family: "GeosansLight";
+    font-size: 52px;
+    margin-top: -28px; }
+  @media screen and (max-width: 768px) {
+    .seccion_1 .titulos {
+      left: 25px; }
+    .seccion_1 h1 {
+      font-size: 50px;
+      line-height: 40px;
+      margin-bottom: -15px; }
+    .seccion_1 h2 {
+      font-size: 25px; }
+    .seccion_1 h3 {
+      font-size: 20px;
+      margin-top: -20px; }
+    .seccion_1 .ver_mas {
+      left: 40%; }
+    .seccion_1 .ver_mas > h1 {
+      font-size: 15px; }
+    .seccion_1 .ver_mas > img {
+      left: 20%; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .seccion_1 .titulos {
+      left: 25px; }
+    .seccion_1 h1 {
+      font-size: 50px;
+      line-height: 40px;
+      margin-bottom: -15px; }
+    .seccion_1 h2 {
+      font-size: 25px; }
+    .seccion_1 h3 {
+      font-size: 20px;
+      margin-top: -20px; }
+    .seccion_1 .ver_mas {
+      left: 45%; }
+    .seccion_1 .ver_mas > h1 {
+      font-size: 15px; }
+    .seccion_1 .ver_mas > img {
+      left: 20%; } }
+  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    .seccion_1 .ver_mas {
+      left: 50%; } }
+
+/*----Seccion 2: perfil-----*/
+.seccion_2 {
+  color: #000;
+  height: 100vh; }
+  .seccion_2 .row {
+    margin-bottom: 0; }
+  .seccion_2 .perfil {
+    margin-top: 155px; }
+    .seccion_2 .perfil img {
+      width: 320px; }
+  .seccion_2 .mensaje span {
+    font-family: "AdamCG";
+    font-size: 30px; }
+  .seccion_2 h1 {
+    font-family: "DolceVitaBold";
+    font-size: 90px;
+    text-decoration: underline;
+    -moz-text-decoration-color: #00FFD3;
+    /* Code for Firefox */
+    text-decoration-color: #00FFD3; }
+  .seccion_2 p {
+    font-family: "BrandonLight";
+    font-size: 25px;
+    text-align: justify; }
+  @media screen and (max-width: 768px) {
+    .seccion_2 {
+      /*Mobile Portrait*/
+      height: auto; }
+      .seccion_2 .perfil {
+        margin-top: 20px; }
+      .seccion_2 h1 {
+        font-size: 40px; }
+      .seccion_2 p {
+        font-size: 18px;
+        text-align: center; }
+      .seccion_2 .mensaje span {
+        font-size: 15px; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .seccion_2 {
+      /*Mobile & Tablet Landscape*/
+      height: auto; }
+      .seccion_2 .perfil {
+        margin-top: 20px; }
+      .seccion_2 h1 {
+        font-size: 40px; }
+      .seccion_2 p {
+        font-size: 18px; }
+      .seccion_2 .mensaje span {
+        font-size: 15px; } }
+  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    .seccion_2 {
+      /*Tablet Portrait*/ }
+      .seccion_2 .perfil {
+        margin-top: 50px; }
+      .seccion_2 .mensaje span {
+        font-size: 30px; }
+      .seccion_2 .tarjeta {
+        margin-top: 50px; }
+      .seccion_2 h1 {
+        font-size: 50px; }
+      .seccion_2 p {
+        font-size: 20px;
+        text-align: justify; } }
+
+/*----Seccion 3: habilidades-----*/
+.seccion_3 {
+  height: 100vh; }
+  .seccion_3 .habilidades {
+    margin-top: 150px; }
+  .seccion_3 h1 {
+    font-family: "DolceVitaBold";
+    font-size: 90px;
+    text-decoration: underline;
+    -moz-text-decoration-color: #00FFD3;
+    /* Code for Firefox */
+    text-decoration-color: #00FFD3; }
+  .seccion_3 .tabs .tab a:hover {
+    color: #000; }
+  .seccion_3 .tabs .tab a.active {
+    color: #000; }
+  .seccion_3 .tabs .indicator {
+    background-color: #00FFD3; }
+  .seccion_3 .lista-habilidades {
+    margin-top: 50px; }
+  @media screen and (max-width: 768px) {
+    .seccion_3 {
+      /*Mobile Portrait*/
+      height: auto; }
+      .seccion_3 h1 {
+        font-size: 35px; }
+      .seccion_3 .habilidades {
+        margin-top: 0; }
+      .seccion_3 .lista-habilidades {
+        margin-top: 10px; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .seccion_3 {
+      /*Mobile & Tablet Landscape*/
+      height: auto; }
+      .seccion_3 .habilidades {
+        margin-top: 35px; }
+      .seccion_3 .lista-habilidades {
+        margin-top: 20px; } }
+  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    .seccion_3 {
+      /*Tablet Portrait*/ }
+      .seccion_3 .habilidades {
+        margin-top: 135px; } }
+
+/*----Seccion 4: portafolio-----*/
+.seccion_4 {
+  height: 100vh; }
+  .seccion_4 .filter-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-animation: filterMask 1s ease-in-out both;
+    animation: filterMask 1s ease-in-out both; }
+@-webkit-keyframes filterMask {
+  0% {
+    background: transparent; }
+  50% {
+    background: #fff; }
+  100% {
+    background: transparent; } }
+@keyframes filterMask {
+  0% {
+    background: transparent; }
+  50% {
+    background: #fff; }
+  100% {
+    background: transparent; } }
+  .seccion_4 .portafolio {
+    margin-top: 150px; }
+  .seccion_4 h1 {
+    font-family: "DolceVitaBold";
+    font-size: 90px;
+    text-decoration: underline;
+    -moz-text-decoration-color: #00FFD3;
+    /* Code for Firefox */
+    text-decoration-color: #00FFD3; }
+  .seccion_4 .tabs .tab a:hover {
+    color: #000; }
+  .seccion_4 .tabs .tab a.active {
+    color: #000; }
+  .seccion_4 .tabs .indicator {
+    background-color: #00FFD3; }
+  .seccion_4 .lista-habilidades {
+    margin-top: 50px; }
+  @media screen and (max-width: 768px) {
+    .seccion_4 {
+      /*Mobile Portrait*/ }
+      .seccion_4 h1 {
+        font-size: 35px; }
+      .seccion_4 .habilidades {
+        margin-top: 0; }
+      .seccion_4 .lista-habilidades {
+        margin-top: 10px; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .seccion_4 {
+      /*Mobile & Tablet Landscape*/ }
+      .seccion_4 .habilidades {
+        margin-top: 35px; }
+      .seccion_4 .lista-habilidades {
+        margin-top: 20px; } }
+  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    .seccion_4 {
+      /*Tablet Portrait*/ }
+      .seccion_4 .habilidades {
+        margin-top: 135px; } }
+
+/*----Seccion 5: portafolio-----*/
+.seccion_5 {
+  height: auto;
+  text-align: center; }
+  .seccion_5 h1 {
+    font-family: "DolceVitaBold";
+    font-size: 90px;
+    text-decoration: underline;
+    -moz-text-decoration-color: #00FFD3;
+    /* Code for Firefox */
+    text-decoration-color: #00FFD3; }
+  .seccion_5 h2 {
+    font-family: "AdamCG";
+    font-size: 20px; }
+  .seccion_5 p {
+    font-family: "BrandonLight";
+    font-size: 50px; }
+  @media screen and (max-width: 768px) {
+    .seccion_5 {
+      /*Mobile Portrait*/ }
+      .seccion_5 h1 {
+        font-size: 35px; }
+      .seccion_5 p {
+        font-size: 20px; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .seccion_5 {
+      /*Mobile & Tablet Landscape*/ }
+      .seccion_5 h1 {
+        font-size: 35px; }
+      .seccion_5 p {
+        font-size: 20px; } }
+  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    .seccion_5 {
+      /*Tablet Portrait*/ } }
+
+/*# sourceMappingURL=style.css.map */
