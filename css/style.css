@@ -14,6 +14,10 @@ body {
 @font-face {
   font-family: GeosansLight;
   src: url(../fonts/GeosansLight.ttf); }
+/*Cambios*/
+.card .card-title {
+  font-size: 20px; }
+
 /*----Seccion 1: portada-----*/
 .seccion_1 {
   color: #fff;
@@ -207,16 +211,14 @@ body {
         margin-top: 135px; } }
 
 /*----Seccion 4: portafolio-----*/
-.seccion_4 {
-  height: 100vh; }
-  .seccion_4 .filter-mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    -webkit-animation: filterMask 1s ease-in-out both;
-    animation: filterMask 1s ease-in-out both; }
+.seccion_4 .filter-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-animation: filterMask 1s ease-in-out both;
+  animation: filterMask 1s ease-in-out both; }
 @-webkit-keyframes filterMask {
   0% {
     background: transparent; }
@@ -231,44 +233,44 @@ body {
     background: #fff; }
   100% {
     background: transparent; } }
-  .seccion_4 .portafolio {
-    margin-top: 150px; }
-  .seccion_4 h1 {
-    font-family: "DolceVitaBold";
-    font-size: 90px;
-    text-decoration: underline;
-    -moz-text-decoration-color: #00FFD3;
-    /* Code for Firefox */
-    text-decoration-color: #00FFD3; }
-  .seccion_4 .tabs .tab a:hover {
-    color: #000; }
-  .seccion_4 .tabs .tab a.active {
-    color: #000; }
-  .seccion_4 .tabs .indicator {
-    background-color: #00FFD3; }
-  .seccion_4 .lista-habilidades {
-    margin-top: 50px; }
-  @media screen and (max-width: 768px) {
-    .seccion_4 {
-      /*Mobile Portrait*/ }
-      .seccion_4 h1 {
-        font-size: 35px; }
-      .seccion_4 .habilidades {
-        margin-top: 0; }
-      .seccion_4 .lista-habilidades {
-        margin-top: 10px; } }
-  @media screen and (max-width: 768px) and (orientation: landscape) {
-    .seccion_4 {
-      /*Mobile & Tablet Landscape*/ }
-      .seccion_4 .habilidades {
-        margin-top: 35px; }
-      .seccion_4 .lista-habilidades {
-        margin-top: 20px; } }
-  @media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
-    .seccion_4 {
-      /*Tablet Portrait*/ }
-      .seccion_4 .habilidades {
-        margin-top: 135px; } }
+.seccion_4 .portafolio {
+  margin-top: 150px; }
+.seccion_4 h1 {
+  font-family: "DolceVitaBold";
+  font-size: 90px;
+  text-decoration: underline;
+  -moz-text-decoration-color: #00FFD3;
+  /* Code for Firefox */
+  text-decoration-color: #00FFD3; }
+.seccion_4 .tabs .tab a:hover {
+  color: #000; }
+.seccion_4 .tabs .tab a.active {
+  color: #000; }
+.seccion_4 .tabs .indicator {
+  background-color: #00FFD3; }
+.seccion_4 .lista-habilidades {
+  margin-top: 50px; }
+@media screen and (max-width: 768px) {
+  .seccion_4 {
+    /*Mobile Portrait*/ }
+    .seccion_4 h1 {
+      font-size: 35px; }
+    .seccion_4 .habilidades {
+      margin-top: 0; }
+    .seccion_4 .lista-habilidades {
+      margin-top: 10px; } }
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .seccion_4 {
+    /*Mobile & Tablet Landscape*/ }
+    .seccion_4 .habilidades {
+      margin-top: 35px; }
+    .seccion_4 .lista-habilidades {
+      margin-top: 20px; } }
+@media screen and (max-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+  .seccion_4 {
+    /*Tablet Portrait*/ }
+    .seccion_4 .habilidades {
+      margin-top: 135px; } }
 
 /*----Seccion 5: portafolio-----*/
 .seccion_5 {

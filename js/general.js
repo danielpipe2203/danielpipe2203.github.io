@@ -33,7 +33,7 @@ $(document).ready(function(){
 		setTimeout(function(){ mask.className = '' }, 1000); 
 		}
 
-	var filterVars = ['audio', 'video', 'web']; // define filter categories here 
+	var filterVars = ['audio', 'video', 'web', 'proyectos']; // define filter categories here 
 	var filterItems = document.querySelectorAll('.filter-wrap .filter-item');
 	for (var i = 0; i < filterVars.length; ++i){
 		window['btn' + filterVars[i]] = document.getElementById(filterVars[i]);
