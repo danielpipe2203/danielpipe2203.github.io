@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@font-face {
+  font-family: DolceVitaBold;
+  src: url(../fonts/Dolce_Vita_Heavy_Bold.ttf);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #575757;
+}
+
+#header.alt {
+  position: absolute;
+  z-index: 99;
+}
+
+#header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#header .logo {
+  text-align: center;
+}
+
+#header .logo a {
+  width: 50%;
+  border: 0;
+  display: inline-block;
+  font-size: 2em;
+  font-family: "DolceVitaBold";
+  height: inherit;
+  line-height: inherit;
+}
+
+#header .logo a strong {
+  color: #ffffff;
+  display: inline-block;
+}
+
+#header nav a {
+  display: block;
+  padding-top: 1%;
+  float: right;
+  margin-right: 1.3em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#header nav a span {
+  font-size: 1.2em;
+  padding-right: 0.5em;
+  vertical-align: middle;
+}
+
+#header nav a i {
+  font-size: 2em;
+  vertical-align: middle;
+}
+
+#header nav a:hover {
+  color: #ffffff;
+}
+
+.intro {
+  height: 100vh;
+  padding-top: 5rem;
+  color: #ffffff;
+}
+
+.intro .bg-holder {
+  background-image: url("../images/daniel.jpg");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(63, 63, 63, 0.36);
+          box-shadow: inset 0 0 0 2000px rgba(63, 63, 63, 0.36);
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+}
+
+.intro .titulo-container {
+  height: 100%;
+}
+
+.intro .titulo-container div:nth-child(2) {
+  text-align: center;
+}
+
+.intro .titulo-container h1, .intro .titulo-container p {
+  text-align: center;
+  font-family: "DolceVitaBold";
+}
+
+.intro .titulo-container h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+.intro .titulo-container p {
+  font-size: 2.5rem;
+}
+
+.intro .titulo-container p mark {
+  background-color: #FE8F1D;
+  color: #ffffff;
+}
+
+.intro .titulo-container .cta-inicial {
+  color: #ffffff;
+  border: solid 1px #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  scale: 1;
+  transition: transform .2s linear,-webkit-transform .2s linear;
+}
+
+.intro .titulo-container .cta-inicial:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.pj-uno {
+  height: 40vh;
+}
+
+.pj-uno .pj-row {
+  height: 100%;
+}
+
+.pj-uno .pj-row .bullet-ark {
+  height: 100%;
+  text-decoration: none;
+}
+
+.pj-uno .pj-row .bullet-ark .bg-bullet-pj {
+  background-image: url("../images/bullet_ark_web.PNG");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0.63);
+          box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0.63);
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.pj-uno .pj-row .bullet-ark .title-proyecto {
+  z-index: 99;
+  margin-left: 2rem;
+  margin-top: 15%;
+  text-decoration: none;
+}
+
+.pj-uno .pj-row .bullet-ark .title-proyecto h2, .pj-uno .pj-row .bullet-ark .title-proyecto p {
+  color: #ffffff;
+}
+
+.pj-uno .pj-row .bullet-ark .title-proyecto h2 {
+  font-weight: bold;
+}
+
+.pj-uno .pj-row .bullet-ark:hover .bg-bullet-pj {
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0);
+          box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0);
+}
+
+@media (max-width: 768px) {
+  #header nav a {
+    padding-top: 4%;
+  }
+  .intro .titulo-container h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .intro .titulo-container p {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+  .pj-uno .pj-row .bullet-ark {
+    height: 40vh;
+  }
+  .pj-uno .pj-row .bullet-ark .title-proyecto {
+    margin-top: 30%;
+  }
+  .pj-uno .pj-row .bullet-ark .title-proyecto h2, .pj-uno .pj-row .bullet-ark .title-proyecto p {
+    color: #ffffff;
+    text-align: left;
+  }
+  .pj-uno .pj-row .bullet-ark .title-proyecto h2 {
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
