@@ -5,6 +5,7 @@
     src: url(../fonts/Dolce_Vita_Heavy_Bold.ttf);
 }
 $naranja-marca: #FE8F1D;
+$naranja-marca-rgb: rgba(240, 100, 0, 1);
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -94,7 +95,7 @@ body{
         p{
             font-size: 2.5rem;
             mark{
-                background-color: $naranja-marca;
+                background-color: $naranja-marca-rgb;
                 color: #ffffff;
             }
         }
@@ -119,6 +120,163 @@ body{
     height: 40vh;
     .pj-row{
         height: 100%;
+        .web{
+            height: 100%;
+            text-decoration: none;
+            .bg-web-pj{
+                background-image: url("../images/web.jpg");
+                box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0.63);
+                transition: box-shadow 0.3s ease-in-out;
+                position: absolute;
+                width: 100%;
+                min-height: 100%;
+                top: 0;
+                left: 0;
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
+                will-change: transform,opacity,filter;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                background-repeat: no-repeat;
+                z-index: -1;
+            }
+            .title-proyecto{
+                z-index: 99;
+                margin-left: 2rem;
+                margin-top: 15rem;
+                text-decoration: none;
+                h2,p{
+                    color: #ffffff;
+                }
+                h2{
+                    font-weight: bold;
+                }
+            }
+        }
+        .web:hover{
+            .bg-web-pj{
+                box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0);
+            }
+        }
+        .educativa{
+            height: 100%;
+            text-decoration: none;
+            .bg-educativa-pj{
+                background-image: url("../images/tomas-yates-696872-unsplash.jpg");
+                box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0.63);
+                transition: box-shadow 0.3s ease-in-out;
+                position: absolute;
+                width: 100%;
+                min-height: 101%;
+                top: 0;
+                left: 0;
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
+                will-change: transform,opacity,filter;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                background-repeat: no-repeat;
+                z-index: -1;
+            }
+            .title-proyecto{
+                z-index: 99;
+                margin-left: 2rem;
+                margin-top: 15rem;
+                text-decoration: none;
+                h2,p{
+                    color: #ffffff;
+                }
+                h2{
+                    font-weight: bold;
+                }
+            }
+        }
+        .educativa:hover{
+            .bg-educativa-pj{
+                box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0);
+            }
+        }
+        .games{
+            height: 100%;
+            text-decoration: none;
+            .bg-games-pj{
+                background-image: url("../images/hardik-sharma-560353-unsplash.jpg");
+                box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0.63);
+                transition: box-shadow 0.3s ease-in-out;
+                position: absolute;
+                width: 100%;
+                min-height: 101%;
+                top: 0;
+                left: 0;
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
+                will-change: transform,opacity,filter;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                background-repeat: no-repeat;
+                z-index: -1;
+            }
+            .title-proyecto{
+                z-index: 99;
+                margin-left: 2rem;
+                margin-top: 15rem;
+                text-decoration: none;
+                h2,p{
+                    color: #ffffff;
+                }
+                h2{
+                    font-weight: bold;
+                }
+            }
+        }
+        .games:hover{
+            .bg-games-pj{
+                box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0);
+            }
+        }
+        .audiovisuales{
+            height: 100%;
+            text-decoration: none;
+            .bg-audivisual-pj{
+                background-image: url("../images/megan-campagnolo-1380826-unsplash.jpg");
+                box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
+                transition: box-shadow 0.3s ease-in-out;
+                position: absolute;
+                width: 100%;
+                min-height: 100%;
+                top: 0;
+                left: 0;
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
+                will-change: transform,opacity,filter;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                background-repeat: no-repeat;
+                z-index: -1;
+            }
+            .title-proyecto{
+                z-index: 99;
+                margin-left: 2rem;
+                margin-top: 15rem;
+                text-decoration: none;
+                h2,p{
+                    color: #ffffff;
+                    display: block;
+                }
+                h2{
+                    font-weight: bold;
+                }
+            }
+        }
+        .audiovisuales:hover{
+            .bg-audivisual-pj{
+                box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
+            }
+        }
         .bullet-ark{
             height: 100%;
             text-decoration: none;
@@ -156,84 +314,6 @@ body{
         .bullet-ark:hover{
             .bg-bullet-pj{
                 box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0);
-            }
-        }
-        .audiovisuales{
-            height: 100%;
-            text-decoration: none;
-            .bg-audivisual-pj{
-                background-image: url("../images/portafolio_video_musical.png");
-                box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
-                transition: box-shadow 0.3s ease-in-out;
-                position: absolute;
-                width: 100%;
-                min-height: 100%;
-                top: 0;
-                left: 0;
-                background-size: cover;
-                background-position: center;
-                overflow: hidden;
-                will-change: transform,opacity,filter;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-                background-repeat: no-repeat;
-                z-index: -1;
-            }
-            .title-proyecto{
-                z-index: 99;
-                margin-left: 2rem;
-                margin-top: 15rem;
-                text-decoration: none;
-                h2,p{
-                    color: #ffffff;
-                }
-                h2{
-                    font-weight: bold;
-                }
-            }
-        }
-        .audiovisuales:hover{
-            .bg-audivisual-pj{
-                box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
-            }
-        }
-        .web{
-            height: 100%;
-            text-decoration: none;
-            .bg-web-pj{
-                background-image: url("../images/web.jpg");
-                box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0.63);
-                transition: box-shadow 0.3s ease-in-out;
-                position: absolute;
-                width: 100%;
-                min-height: 100%;
-                top: 0;
-                left: 0;
-                background-size: cover;
-                background-position: center;
-                overflow: hidden;
-                will-change: transform,opacity,filter;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-                background-repeat: no-repeat;
-                z-index: -1;
-            }
-            .title-proyecto{
-                z-index: 99;
-                margin-left: 2rem;
-                margin-top: 15rem;
-                text-decoration: none;
-                h2,p{
-                    color: #ffffff;
-                }
-                h2{
-                    font-weight: bold;
-                }
-            }
-        }
-        .web:hover{
-            .bg-web-pj{
-                box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0);
             }
         }
     }

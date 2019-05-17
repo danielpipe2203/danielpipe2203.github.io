@@ -110,7 +110,7 @@ body {
 }
 
 .intro .titulo-container p mark {
-  background-color: #FE8F1D;
+  background-color: #f06400;
   color: #ffffff;
 }
 
@@ -138,6 +138,199 @@ body {
 
 .projects .pj-row {
   height: 100%;
+}
+
+.projects .pj-row .web {
+  height: 100%;
+  text-decoration: none;
+}
+
+.projects .pj-row .web .bg-web-pj {
+  background-image: url("../images/web.jpg");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0.63);
+          box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0.63);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.projects .pj-row .web .title-proyecto {
+  z-index: 99;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  text-decoration: none;
+}
+
+.projects .pj-row .web .title-proyecto h2, .projects .pj-row .web .title-proyecto p {
+  color: #ffffff;
+}
+
+.projects .pj-row .web .title-proyecto h2 {
+  font-weight: bold;
+}
+
+.projects .pj-row .web:hover .bg-web-pj {
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0);
+          box-shadow: inset 0 0 0 2000px rgba(240, 100, 0, 0);
+}
+
+.projects .pj-row .educativa {
+  height: 100%;
+  text-decoration: none;
+}
+
+.projects .pj-row .educativa .bg-educativa-pj {
+  background-image: url("../images/tomas-yates-696872-unsplash.jpg");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0.63);
+          box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0.63);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  position: absolute;
+  width: 100%;
+  min-height: 101%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.projects .pj-row .educativa .title-proyecto {
+  z-index: 99;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  text-decoration: none;
+}
+
+.projects .pj-row .educativa .title-proyecto h2, .projects .pj-row .educativa .title-proyecto p {
+  color: #ffffff;
+}
+
+.projects .pj-row .educativa .title-proyecto h2 {
+  font-weight: bold;
+}
+
+.projects .pj-row .educativa:hover .bg-educativa-pj {
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0);
+          box-shadow: inset 0 0 0 2000px rgba(62, 2, 204, 0);
+}
+
+.projects .pj-row .games {
+  height: 100%;
+  text-decoration: none;
+}
+
+.projects .pj-row .games .bg-games-pj {
+  background-image: url("../images/hardik-sharma-560353-unsplash.jpg");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0.63);
+          box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0.63);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  position: absolute;
+  width: 100%;
+  min-height: 101%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.projects .pj-row .games .title-proyecto {
+  z-index: 99;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  text-decoration: none;
+}
+
+.projects .pj-row .games .title-proyecto h2, .projects .pj-row .games .title-proyecto p {
+  color: #ffffff;
+}
+
+.projects .pj-row .games .title-proyecto h2 {
+  font-weight: bold;
+}
+
+.projects .pj-row .games:hover .bg-games-pj {
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0);
+          box-shadow: inset 0 0 0 2000px rgba(54, 255, 78, 0);
+}
+
+.projects .pj-row .audiovisuales {
+  height: 100%;
+  text-decoration: none;
+}
+
+.projects .pj-row .audiovisuales .bg-audivisual-pj {
+  background-image: url("../images/megan-campagnolo-1380826-unsplash.jpg");
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
+          box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform,opacity,filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.projects .pj-row .audiovisuales .title-proyecto {
+  z-index: 99;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  text-decoration: none;
+}
+
+.projects .pj-row .audiovisuales .title-proyecto h2, .projects .pj-row .audiovisuales .title-proyecto p {
+  color: #ffffff;
+  display: block;
+}
+
+.projects .pj-row .audiovisuales .title-proyecto h2 {
+  font-weight: bold;
+}
+
+.projects .pj-row .audiovisuales:hover .bg-audivisual-pj {
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
+          box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
 }
 
 .projects .pj-row .bullet-ark {
@@ -186,102 +379,6 @@ body {
 .projects .pj-row .bullet-ark:hover .bg-bullet-pj {
   -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0);
           box-shadow: inset 0 0 0 2000px rgba(255, 51, 51, 0);
-}
-
-.projects .pj-row .audiovisuales {
-  height: 100%;
-  text-decoration: none;
-}
-
-.projects .pj-row .audiovisuales .bg-audivisual-pj {
-  background-image: url("../images/portafolio_video_musical.png");
-  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
-          box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0.63);
-  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  will-change: transform,opacity,filter;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.projects .pj-row .audiovisuales .title-proyecto {
-  z-index: 99;
-  margin-left: 2rem;
-  margin-top: 15rem;
-  text-decoration: none;
-}
-
-.projects .pj-row .audiovisuales .title-proyecto h2, .projects .pj-row .audiovisuales .title-proyecto p {
-  color: #ffffff;
-}
-
-.projects .pj-row .audiovisuales .title-proyecto h2 {
-  font-weight: bold;
-}
-
-.projects .pj-row .audiovisuales:hover .bg-audivisual-pj {
-  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
-          box-shadow: inset 0 0 0 2000px rgba(0, 72, 255, 0);
-}
-
-.projects .pj-row .web {
-  height: 100%;
-  text-decoration: none;
-}
-
-.projects .pj-row .web .bg-web-pj {
-  background-image: url("../images/web.jpg");
-  -webkit-box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0.63);
-          box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0.63);
-  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  will-change: transform,opacity,filter;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.projects .pj-row .web .title-proyecto {
-  z-index: 99;
-  margin-left: 2rem;
-  margin-top: 15rem;
-  text-decoration: none;
-}
-
-.projects .pj-row .web .title-proyecto h2, .projects .pj-row .web .title-proyecto p {
-  color: #ffffff;
-}
-
-.projects .pj-row .web .title-proyecto h2 {
-  font-weight: bold;
-}
-
-.projects .pj-row .web:hover .bg-web-pj {
-  -webkit-box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0);
-          box-shadow: inset 0 0 0 2000px rgba(254, 143, 29, 0);
 }
 
 @media (max-width: 768px) {
